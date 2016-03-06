@@ -1,6 +1,6 @@
-# Ping Pong
+# PingPong
 
-### Ping Pong Web App
+### PingPong Web App
 
 Create a web application that takes a number from a user and returns a range of numbers from 1 to the chosen number with the following exceptions:
 
