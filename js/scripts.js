@@ -1,4 +1,4 @@
-var bottlesOfBeer = function(a) {
+var pingPong = function(a) {
     var text = "";
     var i;
     for (i = 1; i <= a; i++) {
@@ -24,7 +24,7 @@ var bottlesOfBeer = function(a) {
      $("form#rate").submit(function(event) {
        var a = $("input#text").val();
 
-       var result = bottlesOfBeer(a);
+       var result = pingPong(a);
 
        $("#truthy").html(result);
 
