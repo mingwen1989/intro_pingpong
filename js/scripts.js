@@ -1,23 +1,23 @@
 var pingPong = function(a) {
-    var text = "";
+    var arr = [];
     var i;
     for (i = 1; i <= a; i++) {
-      text += "<li>"
+      arr.push("<li>")
     if ((i % 3 === 0) && (i % 5 === 0)) {
-      text += "<b>ping-pong</b>";
+      arr.push("<b>ping-pong</b>");
     }
     else if (i % 3 === 0) {
-      text += "<b>ping</b>";
+      arr.push("<b>ping</b>");
     }
     else if (i % 5 === 0) {
-      text += "<b>pong</b>";
+      arr.push("<b>pong</b>");
     }
     else {
-      text += i;
+      arr.push(i);
     }
-    text += "</li>";
+    arr.push("</li>");
   }
-    return text;
+    return arr.join("");
 }
 
    $(document).ready(function() {
