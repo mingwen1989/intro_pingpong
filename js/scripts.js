@@ -21,12 +21,12 @@ var pingPong = function(a) {
 }
 
    $(document).ready(function() {
-     $("form#rate").submit(function(event) {
+     $("form#input").submit(function(event) {
        var a = $("input#text").val();
 
        var result = pingPong(a);
 
-       $("#truthy").html(result);
+       $("#displayresult").html(result);
 
        $("#result").show();
        event.preventDefault();
